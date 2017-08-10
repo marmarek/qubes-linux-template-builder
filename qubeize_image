@@ -2,6 +2,7 @@
 
 if [ "$VERBOSE" -ge 2 -o "$DEBUG" == "1" ]; then
     set -x
+    env
 fi
 
 set -e
